@@ -4146,4 +4146,64 @@ body:has(.app.collapsed) #reservationFolioPage.res-folio-page{
   pointer-events:none !important;
   z-index:3 !important;
 }
+</style><style id="reference-dashboard-theme">
+:root{--gold:#00616A;--gold-700:#102A50;--gold-100:#E3F5EF;--gold-50:#F0FAF7;--navy:#102A50;--navy-2:#00616A;--text:#122D52;--muted:#627B9C;--blue:#00616A;--blue-100:#E3F5EF;--green:#16B991;--green-100:#E0F5ED;--orange:#FFA817;--bg:#F3F6F8;--line:#DEE6EE;--line-2:#E5EBF1;--r:11px;--shadow-sm:none}
+.app{grid-template-columns:220px minmax(0,1fr);grid-template-rows:54px minmax(0,1fr)}
+.sidebar,.brand,.nav-bottom{background:#fff;border-color:var(--line-2);color:var(--text)}
+.brand{height:54px;padding:0 18px;gap:7px}.brand-title{color:var(--navy);font-size:14px}.brand-mark{width:32px;height:32px;background:transparent;color:var(--blue);box-shadow:none}.brand .collapse-btn{background:#F0F3F6;color:var(--navy);border:0;width:27px;height:27px}.brand .collapse-btn:hover{background:var(--gold-100);color:var(--blue)}
+.nav{padding:20px 14px;gap:24px}.nav-group h4{color:var(--muted);font-size:10px;margin:0 12px 8px}.nav-item{height:37px;font-weight:400;color:#254468;gap:14px}.nav-item svg{color:#195169;width:20px;height:20px}.nav-item:hover,.nav-item.active{background:var(--gold-100);color:var(--blue)}.nav-item.active{font-weight:600}.nav-item:hover svg,.nav-item.active svg{color:var(--blue)}.nav-bottom{padding:12px 14px 20px}
+.topbar{height:54px;padding:0 20px}.global-search{height:34px;width:min(448px,44vw)}.avatar{background:var(--blue)}.main{padding:16px 20px 28px}.page-title{font-size:24px;color:var(--navy)}.page-head{margin-bottom:14px}.page-sub{font-size:12px;margin-top:5px}.card{box-shadow:none;border-color:var(--line-2)}
+.stacked-kpis{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:14px!important}
+.stacked-kpis .stacked-kpi{display:grid!important;grid-template-columns:60px 1fr;grid-template-rows:32px 23px 23px;column-gap:16px!important;min-height:120px!important;padding:18px!important;align-content:center;align-items:start!important}
+.stacked-kpis .stacked-kpi .kpi-icon{grid-column:1;grid-row:1/4;width:50px!important;height:50px!important;margin:0!important}
+.stacked-kpis .stacked-kpi .kpi-icon svg{width:25px!important;height:25px!important}.stacked-kpis .stacked-kpi .kpi-value{grid-column:2;font-size:27px!important;margin:4px 0 0!important;color:var(--navy)!important}.stacked-kpis .stacked-kpi .kpi-label,.stacked-kpis .stacked-kpi .kpi-meta{grid-column:2}.admin-kpi .kpi-icon.blue{background:#E5EEFF;color:#3678FF}.admin-kpi .kpi-icon.green{background:#E0F5ED;color:#009C79}.admin-kpi .kpi-icon.orange{background:#FFF2DC;color:#EF9200}
+.screenshot-dashboard-grid{gap:14px;margin-top:14px}.dash-card{padding:16px}.dash-title h3{color:var(--navy);font-size:14px;gap:12px}.dash-title h3 svg{width:21px;height:21px;color:var(--blue)}.dash-title{margin-bottom:14px}
+.screenshot-dashboard-grid .revenue-card,.screenshot-dashboard-grid .room-type-card{min-height:272px}.screenshot-dashboard-grid .room-status-card,.screenshot-dashboard-grid .hk-status-card{min-height:190px}.screenshot-dashboard-grid .reservations-card-v2,.screenshot-dashboard-grid .activity-card-v2{min-height:274px}
+.screenshot-dashboard-grid .revenue-card .chart-wrap{height:154px;margin-top:18px;margin-bottom:32px;background:repeating-linear-gradient(to bottom,#fff 0,#fff 37px,#EDF1F5 38px)}.chart-line{top:50%;height:2px;background:linear-gradient(90deg,#084CB0 0 64%,#13B58E 64%)}.chart-fill{top:50%;background:linear-gradient(#EDF1F4,transparent)}.chart-legend{color:var(--navy)}
+.room-type-donut-shell,.screenshot-donut-wrap .room-type-donut{width:130px!important;height:130px!important}.room-type-donut{background:conic-gradient(#00616A 0 37.5%,#16B991 37.5% 75%,#4D86FF 75% 87.5%,#FFA817 87.5% 100%)!important}.room-type-donut:after{inset:26px!important}.screenshot-donut-wrap{gap:0}.room-type-legend{gap:9px}.room-type-legend .legend-row:nth-child(1) i{background:#00616A!important}.room-type-legend .legend-row:nth-child(2) i{background:#16B991!important}.room-type-legend .legend-row:nth-child(3) i{background:#FFA817!important}.room-type-legend .legend-row:nth-child(4) i{background:#4D86FF!important}
+.screenshot-status-list{gap:7px}.status-total{padding:9px 0 0}.hk-reference-list>div{padding:10px 0}.hk-reference-list>div:last-child{border:0}.hk-ref-dot.pending{background:#FFA817}.hk-ref-dot.progress{background:#4D86FF}.hk-ref-dot.complete{background:#16B991}.status-badge{background:#E0F5ED;color:#006B65}.activity-icon{background:#EFF7F5;border:0;width:34px;height:34px}.activity-item{grid-template-columns:34px 1fr}.activity-card-v2 .activity-list{gap:5px}.activity-card-v2 .activity-copy span{line-height:1.35;font-size:11px}.reservations-card-v2 .reservations th{font-size:10px;text-transform:uppercase}.reservations-card-v2 .reservations td{font-size:11px;padding:8px}.date-filter-trigger{color:var(--blue);border-color:var(--blue);min-width:146px;height:40px}.date-filter-trigger>svg:first-child,.date-option{color:var(--blue)}
+@media(min-width:1101px){.screenshot-dashboard-grid .revenue-card{grid-column:span 8!important}.screenshot-dashboard-grid .room-type-card{grid-column:span 4!important}.screenshot-dashboard-grid .room-status-card,.screenshot-dashboard-grid .hk-status-card{grid-column:span 6!important}}
+@media(max-width:700px){.app{grid-template-columns:78px minmax(0,1fr)}.brand-text,.nav-group h4,.nav-item span,.brand .collapse-btn{display:none}.brand{padding:0;justify-content:center}.nav-item{justify-content:center;padding:0}.main{padding:16px 12px}.stacked-kpis{grid-template-columns:1fr!important}.topbar{padding:0 12px}.profile-copy{display:none}.global-search{width:100%}.screenshot-dashboard-grid .dash-title{flex-wrap:wrap}.chart-labels{font-size:9px}}
+</style>
+<style>
+#page-dashboard .dash-title h3 svg{color:#00616A!important}.chart-legend>span:nth-child(2) .legend-dot{background:#084CB0!important}.section-accent{width:20px;height:22px;border-radius:0;background:linear-gradient(#00616A,#00616A) 0 13px/4px 9px no-repeat,linear-gradient(#00616A,#00616A) 7px 7px/4px 15px no-repeat,linear-gradient(#00616A,#00616A) 14px 1px/4px 21px no-repeat}.status-track{height:8px}
+</style>
+<style id="dashboard-spacing-refinement">
+.stacked-kpis{gap:20px!important}
+.stacked-kpis .stacked-kpi{display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:flex-start!important;min-height:212px!important;padding:22px!important;border-radius:16px;gap:0!important}
+.stacked-kpis .stacked-kpi .kpi-icon{width:54px!important;height:54px!important;margin:0 0 20px!important;border-radius:14px!important}
+.stacked-kpis .stacked-kpi .kpi-value{font-size:32px!important;line-height:1!important;margin:0 0 12px!important}
+.stacked-kpis .stacked-kpi .kpi-label{font-size:14px!important;line-height:20px!important;margin:0!important}
+.stacked-kpis .stacked-kpi .kpi-meta{font-size:13px!important;line-height:18px!important;margin-top:2px!important}
+.screenshot-dashboard-grid{gap:20px;margin-top:20px}
+.screenshot-dashboard-grid .room-status-card,.screenshot-dashboard-grid .hk-status-card{min-height:250px;padding:22px 20px;border-radius:14px}
+.room-status-card .dash-title,.hk-status-card .dash-title{margin-bottom:22px}
+.room-status-card .screenshot-status-list{gap:10px}
+.room-status-card .status-row{grid-template-columns:154px minmax(0,1fr) 36px;font-size:14px;line-height:16px}
+.room-status-card .status-track{height:10px}
+.room-status-card .status-total{font-size:14px;padding-top:12px}
+.hk-status-card .hk-reference-list>div{font-size:14px;padding:16px 0}
+@media(max-width:700px){.stacked-kpis{gap:14px!important}.screenshot-dashboard-grid{gap:14px}.room-status-card .status-row{grid-template-columns:110px minmax(0,1fr) 22px;font-size:12px}}
+</style>
+<style id="sidebar-width-refinement">
+@media(min-width:701px){.app{grid-template-columns:270px minmax(0,1fr)}.app.collapsed{grid-template-columns:78px minmax(0,1fr)}}
+</style>
+<style id="dashboard-heading-spacing">
+#page-dashboard>.page-head{padding-top:12px;margin-bottom:26px}
+.stacked-kpis .stacked-kpi{min-height:184px!important;padding:20px!important}
+.stacked-kpis .stacked-kpi .kpi-icon{width:48px!important;height:48px!important;margin-bottom:14px!important}
+.stacked-kpis .stacked-kpi .kpi-value{font-size:29px!important;margin-bottom:9px!important}
+</style>
+<style id="navigation-active-radius">
+.nav-item.active{border-radius:8px}
+</style>
+<style id="card-icon-radius">
+.card .kpi-icon,.stacked-kpis .stacked-kpi .kpi-icon,.card .metric-icon{border-radius:8px!important}
+</style>
+<style id="revenue-axis-label-spacing">
+.screenshot-dashboard-grid .revenue-card .chart-wrap{margin-left:62px}
+.revenue-card .chart-y{left:-62px;width:46px}
+</style>
+<style id="light-grey-background">
+:root{--bg:#FAFAFAFA}
 </style>
